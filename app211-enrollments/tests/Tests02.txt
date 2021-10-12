@@ -1,0 +1,30 @@
+Student ben = new Student("Ben", 21405686);
+ben.print();
+ Student ID: 21405686 Name: Ben
+Course computing = new Course("BT1GDV1", "BSc Games Development");
+ben.enrol(computing);
+ben.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: BSc Games Development
+
+Module co452 = new Module("Programming Concepts", "CO452");
+co452.print();
+ Module Code: CO452 Module: Programming Concepts Module Credits: 0
+co452.print();
+ Module Code: CO452 Module: Programming Concepts Module Credits: 0
+co452.setcredit(15);
+co452.print();
+ Module Code: CO452 Module: Programming Concepts Module Credits: 15
+Course computing = new Course("BT1GDV1", "BSc Games Development");
+computing.assign(co452);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: BSc Games Development
+ Module Code: CO452 Module: Programming Concepts Module Credits: 15
+
