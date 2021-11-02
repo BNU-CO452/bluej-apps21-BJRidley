@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("G400", "BSc Computing");
+        this("BT1GDV1", "BSc Games Development");
     }
     
     /**
@@ -27,7 +27,7 @@ public class Course
      */
     public Course(String code, String title)
     {
-        // initialise instance variables
+        //initialise instance variables
         this.code = code;
         this.title = title;
         
@@ -43,9 +43,23 @@ public class Course
      */
     public void createModules()
     {
-        
+        Module co452 = new Module("CO452","Programming Concepts");
+        Module co450 = new Module("CO450","Computer Architectures");
+        Module co461 = new Module("CO461","3D Modelling");
+        Module co459 = new Module("CO459","Game Design");
+   /**
+     * Creating four modules /\ 
+     * and adding them to the modules list \/
+     */        
+        addModule(co452);
+        addModule(co450); 
+        addModule(co461);
+        addModule(co459);
     }
     
+    /**
+     * if statment to add modules as long as less than value set in MAXN_MODULES (4) as declaired as static variable
+     */
     public void addModule(Module module)
     {
         if(modules.size() < MAXN_MODULES)
@@ -55,20 +69,45 @@ public class Course
     }
     
     /**
-     * 
+     * else if statements to set which value give what grade
      */
     public Grades convertToGrade(int mark)
     {
-        return Grades.NS;
+        if (mark >= 1 && mark <= 39)
+		return Grades.F;
+	else if (mark >= 40 && mark <= 49)
+		return Grades.D;
+	else if (mark >= 50 && mark <= 59)
+		return Grades.C;
+	else if (mark >= 60 && mark <= 69)
+		return Grades.B;
+	else if (mark >= 70)
+		return Grades.A;
+	else
+		return Grades.NS;
     }
     
     /**
      * Calculate the average mark from the four module marks
      * and convert that into a final grade.
+     * 
+     * created 2 variables to store data
      */
     public Grades calculateGrade(ArrayList<ModuleMark> marks)
     {
-        return Grades.NS;
+        int totalmark = 0;
+	int finalmark = 0;
+        for(ModuleMark modulemark : marks)
+	{
+		totalmark = totalmark + modulemark.getValue();
+	}
+	
+	finalmark = totalmark / MAXN_MODULES;
+	finalGrade = convertToGrade(finalmark);
+    /**
+     * finalGrade was already created. Just making use of it
+     */
+        return finalGrade;
     }
     
     /**
@@ -89,6 +128,9 @@ public class Course
      */
     public void printModules()
     {
-        System.out.println();
+        for (Module module : modules)
+        {
+        	module.print();
+        }
     }
 }

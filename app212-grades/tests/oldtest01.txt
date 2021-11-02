@@ -1,20 +1,16 @@
 Student ben = new Student("Ben", 21405686);
-ben.print();
- Student ID: 21405686, Ben
 Course gamesdev = new Course("BT1GDV1", "BSc Games Development");
-gamesdev.print();
-
- Course BT1GDV1: BSc Games Development
 ben.enrol(gamesdev);
 ben.printCourse();
  Student ID: 21405686, Ben
 
  Course BT1GDV1: BSc Games Development
+
 Module co452 = new Module("CO452", "Programming Concepts");
 gamesdev.addModule(co452);
-ModuleMark benco452Mark = new ModuleMark(co452);
-benco452Mark.setMark(60);
-ben.addMark(benco452Mark);
+ModuleMark benco452mark = new ModuleMark(co452);
+benco452mark.setMark(59);
+ben.addMark(benco452mark);
 ben.printTranscript();
  ------------------------------------
  App21-02: Exam Board Transcript 2021
@@ -23,6 +19,7 @@ ben.printTranscript();
  Student ID: 21405686, Ben
 
  Course BT1GDV1: BSc Games Development
+
 
 
  ---- 	 -------------------- 	 ------	 ---- 	 -----
