@@ -1,0 +1,29 @@
+Product pokemon = new Product(01, "Pokemon");
+pokemon.print();
+ ID 1: Pokemon stock level: 0
+pokemon.setQuantity(10);
+pokemon.print();
+ ID 1: Pokemon stock level: 10
+pokemon.decreaseQuantity(5);
+pokemon.print();
+ ID 1: Pokemon stock level: 5
+pokemon.print();
+ ID 1: Pokemon stock level: 5
+pokemon.increaseQuantity(27);
+pokemon.print();
+ ID 1: Pokemon stock level: 32
+pokemon.decreaseQuantity(10);
+pokemon.print();
+ ID 1: Pokemon stock level: 22
+Product mario = new Product(02, "Mario");
+StockList bensStockList = new StockList();
+bensStockList.add(pokemon);
+bensStockList.add(mario);
+bensStockList.print();
+
+ Peacock's Stock List
+ ====================
+
+ ID 1: Pokemon stock level: 22
+ ID 2: Mario stock level: 0
+
