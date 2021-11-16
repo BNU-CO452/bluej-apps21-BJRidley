@@ -21,7 +21,7 @@ bensStockList.add(pokemon);
 bensStockList.add(mario);
 bensStockList.print();
 
- Peacock's Stock List
+  Ben's Stock List
  ====================
 
  ID 1: Pokemon stock level: 22
