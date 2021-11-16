@@ -1,0 +1,19 @@
+Student ben = new Student("Ben", 21405686);
+ben.print();
+ Student ID: 21405686 Name: Ben
+Course computing = new Course("BT1GDV1", "BSc Games Development");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: BSc Games Development
+
+ben.enrol(computing);
+ben.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: BSc Games Development
+

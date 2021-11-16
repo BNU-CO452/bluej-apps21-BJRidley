@@ -1,0 +1,199 @@
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ Final Course Grade = D
+ben.addMark(benco452Mark);
+ben.addMark(benco461Mark);
+ben.addMark(benco450Mark);
+ben.addMark(benco459Mark);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO461: 3D Modelling
+ CO450: Computer Architectures
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	65  	B
+
+ CO461: 3D Modelling	  15	75  	A
+
+ CO450: Computer Architectures	  15	66  	B
+
+ CO459: Game Design	  15	65  	B
+
+
+ Final Course Grade = B
+Student ben = new Student();
+Course gamesdev = new Course();
+ben.enrol(gamesdev);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO450: Computer Architectures
+ CO461: 3D Modelling
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ Final Course Grade = D
+Student ben = new Student();
+Course gamesdev = new Course();
+ben.enrol(gamesdev);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO450: Computer Architectures
+ CO461: 3D Modelling
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student ben = new Student();
+Course gamesdev = new Course();
+ben.enrol(gamesdev);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO450: Computer Architectures
+ CO461: 3D Modelling
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student ben = new Student();
+Course gamesdev = new Course();
+ben.enrol(gamesdev);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO450: Computer Architectures
+ CO461: 3D Modelling
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	902464376  	A
+
+ CO450: Computer Architectures	  15	902464376  	A
+
+ CO461: 3D Modelling	  15	902464376  	A
+
+ CO459: Game Design	  15	902464376  	A
+
+
+ No Final Course Grade Yet!
+Student ben = new Student();
+Course gamesdev = new Course();
+ben.enrol(gamesdev);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO450: Computer Architectures
+ CO461: 3D Modelling
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  0	5  	F
+
+ CO450: Computer Architectures	  0	5  	F
+
+ CO461: 3D Modelling	  0	5  	F
+
+ CO459: Game Design	  0	5  	F
+
+
+ Final Course Grade = F
+Student ben = new Student();
+Course gamesdev = new Course();
+ben.enrol(gamesdev);
+ben.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Ben Ridley
+ ------------------------------------
+ Student ID: 21405686, Ben
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: Programming Concepts
+ CO450: Computer Architectures
+ CO461: 3D Modelling
+ CO459: Game Design
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	60  	B
+
+ CO450: Computer Architectures	  15	80  	A
+
+ CO461: 3D Modelling	  15	55  	C
+
+ CO459: Game Design	  15	75  	A
+
+
+ Final Course Grade = B

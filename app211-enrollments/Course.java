@@ -13,7 +13,9 @@ public class Course
     private String code;
     // The full title including qualification and subject
     private String title;
-    
+    //Module value to be used to link course to module 
+    //from course
+    private Module module;
     /**
      * Create a Course with a maximum number of enrolments. 
      * All other details are set to unkown values.
@@ -34,7 +36,13 @@ public class Course
         printHeading();
         
         System.out.println(" Course Code: " + code + ": " + title);
+        module.print();
         System.out.println();
+    }
+    
+    public void assign(Module module)
+    {
+      this.module = module;  
     }
     
     /**
@@ -47,4 +55,6 @@ public class Course
         System.out.println(" --------------------------------");
         System.out.println();
     }
+    
+
 }

@@ -24,7 +24,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Ben", 21405686);
     }
     
     /**
@@ -64,10 +64,25 @@ public class Student
     /**
      * Award a different pass mark for each of the
      * modules on the enrolled course
+     * 
+     * set a value for a test mark
+     * included an if statement within for loop
+     * to make a basic pseudo 'randomiser'
+     * when setting test marks
      */
     public void awardTestMarks()
     {
-        
+        int testmark = 60;
+        for (Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(testmark);
+        if (testmark <= 75)
+		testmark = testmark + 20;
+        else
+                testmark = testmark -25;
+            marks.add(mark);
+        }
     }
     
     /**
@@ -104,14 +119,18 @@ public class Student
     
     private void printModules()
     {
-
+        for(ModuleMark modulemark : marks)
+            {
+                modulemark.print();
+        	System.out.println("  \t" + course.convertToGrade(modulemark.getValue()));
+            }
     }
     
     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
-        System.out.println("        by student name");
+        System.out.println("        by Ben Ridley");
         System.out.println(" ------------------------------------");
         
         printCourse();
@@ -122,7 +141,8 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
-       
+        printModules();
+        
         Grades finalGrade = course.calculateGrade(marks);
         
         System.out.println();
