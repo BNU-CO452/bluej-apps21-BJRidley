@@ -1,0 +1,199 @@
+
+ ID 101: Tales of Arise stock level: 5
+ ID 102: Melty Blood: Type Lumina stock level: 1
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 10
+ ID 105: Demon Souls stock level: 1
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 2
+ ID 108: Ghost Of Tsushima stock level: 9
+ ID 109: Star Wars Jedi: Fallen Order stock level: 1
+ ID 110: Dragon Ball Z: Kakarot stock level: 8
+
+An order of Tales of Arise can not be completed because you have ordered a quantity over our available stock. We have 5 in stock
+An order of Melty Blood: Type Lumina can not be completed because you have ordered a quantity over our available stock. We have 1 in stock
+The item Dragon Ball FighterZ is out of stock
+An order of 5 copies of Mario Kart 8 has been made
+An order of Demon Souls can not be completed because you have ordered a quantity over our available stock. We have 1 in stock
+The item Kingdom Hearts 3 is out of stock
+An order of 0 copies of Persona 5 has been made
+An order of 0 copies of Ghost Of Tsushima has been made
+An order of Star Wars Jedi: Fallen Order can not be completed because you have ordered a quantity over our available stock. We have 1 in stock
+An order of 1 copies of Dragon Ball Z: Kakarot has been made
+ ID 101: Tales of Arise stock level: 5
+ ID 102: Melty Blood: Type Lumina stock level: 1
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 5
+ ID 105: Demon Souls stock level: 1
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 2
+ ID 108: Ghost Of Tsushima stock level: 9
+ ID 109: Star Wars Jedi: Fallen Order stock level: 1
+ ID 110: Dragon Ball Z: Kakarot stock level: 7
+
+StockList stockLis1 = new StockList();
+StockDemo stockDem1 = new StockDemo(stockLis1);
+stockDem1.runDemo();
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 1
+ ID 102: Melty Blood: Type Lumina stock level: 4
+ ID 103: Dragon Ball FighterZ stock level: 3
+ ID 104: Mario Kart 8 stock level: 6
+ ID 105: Demon Souls stock level: 3
+ ID 106: Kingdom Hearts 3 stock level: 8
+ ID 107: Persona 5 stock level: 4
+ ID 108: Ghost Of Tsushima stock level: 2
+ ID 109: Star Wars Jedi: Fallen Order stock level: 7
+ ID 110: Dragon Ball Z: Kakarot stock level: 3
+
+An order of 0 copies of Tales of Arise has been made
+An order of Melty Blood: Type Lumina can not be completed because you have ordered a quantity over our available stock. We have 4 in stock
+An order of Dragon Ball FighterZ can not be completed because you have ordered a quantity over our available stock. We have 3 in stock
+An order of 4 copies of Mario Kart 8 has been made
+An order of Demon Souls can not be completed because you have ordered a quantity over our available stock. We have 3 in stock
+An order of 3 copies of Kingdom Hearts 3 has been made
+An order of Persona 5 can not be completed because you have ordered a quantity over our available stock. We have 4 in stock
+An order of Ghost Of Tsushima can not be completed because you have ordered a quantity over our available stock. We have 2 in stock
+An order of Star Wars Jedi: Fallen Order can not be completed because you have ordered a quantity over our available stock. We have 7 in stock
+An order of Dragon Ball Z: Kakarot can not be completed because you have ordered a quantity over our available stock. We have 3 in stock
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 1
+ ID 102: Melty Blood: Type Lumina stock level: 4
+ ID 103: Dragon Ball FighterZ stock level: 3
+ ID 104: Mario Kart 8 stock level: 2
+ ID 105: Demon Souls stock level: 3
+ ID 106: Kingdom Hearts 3 stock level: 5
+ ID 107: Persona 5 stock level: 4
+ ID 108: Ghost Of Tsushima stock level: 2
+ ID 109: Star Wars Jedi: Fallen Order stock level: 7
+ ID 110: Dragon Ball Z: Kakarot stock level: 3
+
+StockList stockLis1 = new StockList();
+StockDemo stockDem1 = new StockDemo(stockLis1);
+stockDem1.runDemo();
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 7
+ ID 102: Melty Blood: Type Lumina stock level: 9
+ ID 103: Dragon Ball FighterZ stock level: 4
+ ID 104: Mario Kart 8 stock level: 4
+ ID 105: Demon Souls stock level: 1
+ ID 106: Kingdom Hearts 3 stock level: 2
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 5
+ ID 109: Star Wars Jedi: Fallen Order stock level: 7
+ ID 110: Dragon Ball Z: Kakarot stock level: 7
+
+An order of 4 copies of Tales of Arise has been made
+ ====================
+These items are low on stock 
+Tales of Arise has 3 in stock
+ ====================
+
+An order of 0 copies of Melty Blood: Type Lumina has been made
+ ====================
+These items are low on stock 
+Melty Blood: Type Lumina has 9 in stock
+ ====================
+
+An order of 0 copies of Dragon Ball FighterZ has been made
+ ====================
+These items are low on stock 
+Dragon Ball FighterZ has 4 in stock
+ ====================
+
+An order of 1 copies of Mario Kart 8 has been made
+ ====================
+These items are low on stock 
+Mario Kart 8 has 3 in stock
+ ====================
+
+An order of Demon Souls can not be completed because you have ordered a quantity over our available stock. We have 1 in stock
+ ====================
+These items are low on stock 
+Demon Souls has 1 in stock
+ ====================
+
+An order of Kingdom Hearts 3 can not be completed because you have ordered a quantity over our available stock. We have 2 in stock
+ ====================
+These items are low on stock 
+Kingdom Hearts 3 has 2 in stock
+ ====================
+
+The item Persona 5 is out of stock
+ ====================
+These items are low on stock 
+Persona 5 has 0 in stock
+ ====================
+
+An order of 0 copies of Ghost Of Tsushima has been made
+ ====================
+These items are low on stock 
+Ghost Of Tsushima has 5 in stock
+ ====================
+
+An order of Star Wars Jedi: Fallen Order can not be completed because you have ordered a quantity over our available stock. We have 7 in stock
+ ====================
+These items are low on stock 
+Star Wars Jedi: Fallen Order has 7 in stock
+ ====================
+
+An order of 4 copies of Dragon Ball Z: Kakarot has been made
+ ====================
+These items are low on stock 
+Dragon Ball Z: Kakarot has 3 in stock
+ ====================
+
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 3
+ ID 102: Melty Blood: Type Lumina stock level: 9
+ ID 103: Dragon Ball FighterZ stock level: 4
+ ID 104: Mario Kart 8 stock level: 3
+ ID 105: Demon Souls stock level: 1
+ ID 106: Kingdom Hearts 3 stock level: 2
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 5
+ ID 109: Star Wars Jedi: Fallen Order stock level: 7
+ ID 110: Dragon Ball Z: Kakarot stock level: 3
+
