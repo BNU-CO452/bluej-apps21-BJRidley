@@ -1,0 +1,200 @@
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+ ID 201: BlazBlue: Central Fiction stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter a new product ID number: 
+201
+Please enter the name of the new game. test
+****************************************************************
+You have added a new game with the ID of 201 and the name of test
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+ ID 201: BlazBlue: Central Fiction stock level: 0
+ ID 201: test stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Please enter a product ID number: 
+201
+****************************************************************
+You have removed a game with the ID of 201 and the name of BlazBlue: Central Fiction
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+ ID 201: test stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Please enter a product ID number: 
+201
+****************************************************************
+You have removed a game with the ID of 201 and the name of test
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Low stock:  Show items low or no stock
+    Re-stock:   Shows item recently restocked
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Please enter a product ID number: 
+201
+****************************************************************
+    Exception occurred.
