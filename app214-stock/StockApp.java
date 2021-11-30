@@ -83,8 +83,8 @@ public class StockApp
             stock.buyProduct(productID, amount);
             
             System.out.println("****************************************************************");
-            System.out.println("You have bought " + amount + " of stock for the follwing product "
-            + product.getID() + " " + product.getName());
+            System.out.println("You have bought " + amount + " copies of the follwing product "
+            + "ID: " + product.getID() + " Name: " + product.getName());
             System.out.println("****************************************************************");
         }
         
@@ -96,8 +96,8 @@ public class StockApp
             stock.sellProduct(productID, amount);
             
             System.out.println("****************************************************************");
-            System.out.println("You have sold " + amount + " of stock for the follwing product "
-            + product.getID() + " " + product.getName());
+            System.out.println("You have sold " + amount + " copies of the follwing product "
+            + "ID: " + product.getID() + " Name: " + product.getName());
             System.out.println("****************************************************************");
         }
         
@@ -112,28 +112,6 @@ public class StockApp
             System.out.println("****************************************************************");
         }
         
-        //else if (choice.equals("low stock"))
-        //{
-           
-           // for (Product product = stock);
-            
-           // System.out.println("****************************************************************");
-           // System.out.println("These are the items low on stock: ");
-           // System.out.println("ID: " + product.getID() + " Name " + product.getName());
-           // System.out.println("****************************************************************");
-            
-       // }
-        
-        //else if (choice.equals("low stock"))
-        //{
-            //int amount = reader.getInt("Please enter the amount you wish to sell: ");
-            //int productID = reader.getInt("Please enter a product ID number of the item you wish to sell. ");
-            //Product product = stock.findProduct(productID);
-            //stock.sellProduct(productID, amount);
-            //System.out.println("You have sold " + amount + " of stock for the follwing product "
-            //+ product.getID() + " " + product.getName());
-            
-       // }
         
         else if(choice.equals("print"))
         {

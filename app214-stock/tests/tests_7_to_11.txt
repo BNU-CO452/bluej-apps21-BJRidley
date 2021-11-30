@@ -1,0 +1,140 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > buy
+Please enter the amount you wish to purchase: 
+4
+Please enter a product ID number of the item you wish to purchase for. 
+110
+****************************************************************
+You have bought 4 copies of the follwing product ID: 110 Name: Dragon Ball Z: Kakarot
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > sell
+Please enter the amount you wish to sell: 
+2
+Please enter a product ID number of the item you wish to sell. 
+110
+An order of 2 copies of Dragon Ball Z: Kakarot has been made
+ ====================
+These items are low on stock 
+Dragon Ball Z: Kakarot has 2 in stock
+ ====================
+
+****************************************************************
+You have sold 2 copies of the follwing product ID: 110 Name: Dragon Ball Z: Kakarot
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Ben's Stock List
+ ====================
+
+ ID 101: Tales of Arise stock level: 0
+ ID 102: Melty Blood: Type Lumina stock level: 0
+ ID 103: Dragon Ball FighterZ stock level: 0
+ ID 104: Mario Kart 8 stock level: 0
+ ID 105: Demon Souls stock level: 0
+ ID 106: Kingdom Hearts 3 stock level: 0
+ ID 107: Persona 5 stock level: 0
+ ID 108: Ghost Of Tsushima stock level: 0
+ ID 109: Star Wars Jedi: Fallen Order stock level: 0
+ ID 110: Dragon Ball Z: Kakarot stock level: 2
+
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > search id
+Please enter the ID number of the item you are looking for: 
+106
+****************************************************************
+You have searched for ID 106. This Game is:  Kingdom Hearts 3
+****************************************************************
+********************************
+  App21-04: Stock Application 
+      by Ben Ridley
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buys more stock of an item
+    Sell:       Sells stock of an item
+    Search ID:  Searches for item with that ID
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
